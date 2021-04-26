@@ -44,6 +44,18 @@ public class Player : Caractere
                         //deveDesaparecer = true;
                         deveDesaparecer = inventario.AddItem(danoObjeto);
                         break;
+                    case Item.TipoItem.DIAMANTE:
+                        //deveDesaparecer = true;
+                        deveDesaparecer = inventario.AddItem(danoObjeto);
+                        break;
+                    case Item.TipoItem.COGUMELO:
+                        //deveDesaparecer = true;
+                        deveDesaparecer = inventario.AddItem(danoObjeto);
+                        break;
+                    case Item.TipoItem.PAGINA:
+                        //deveDesaparecer = true;
+                        deveDesaparecer = inventario.AddItem(danoObjeto);
+                        break;
                     default:
                         break;
                 }

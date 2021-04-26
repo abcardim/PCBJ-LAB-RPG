@@ -13,7 +13,10 @@ public class Item : ScriptableObject
     {
         MOEDA,
         HEALTH,
-        CHAVE
+        CHAVE,
+        DIAMANTE,
+        COGUMELO,
+        PAGINA
     }
 
     public TipoItem tipoItem;
