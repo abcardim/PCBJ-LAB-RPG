@@ -15,6 +15,15 @@ public class Inventario : MonoBehaviour
         CriarSlot();
     }
 
+    private void Update()
+    {
+        int i = 0;
+        if (items[i].tipoItem == Item.TipoItem.CHAVE)
+        {
+            Debug.Log("achou uma chave!");
+        }
+    }
+
     public void CriarSlot()
     {
         if (slotPrefab != null)

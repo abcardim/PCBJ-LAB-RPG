@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Player : Caractere
 {
@@ -39,6 +40,10 @@ public class Player : Caractere
                     case Item.TipoItem.HEALTH:
                         deveDesaparecer = AjustarPontosDano(danoObjeto.quantidade);
                         break;
+                    case Item.TipoItem.CHAVE:
+                        //deveDesaparecer = true;
+                        deveDesaparecer = inventario.AddItem(danoObjeto);
+                        break;
                     default:
                         break;
                 }
@@ -61,7 +66,9 @@ public class Player : Caractere
 
             if (pontosDano.valor <= float.Epsilon)
             {
+                //Debug.Log("MORREU");
                 KillCaractere();
+                SceneManager.LoadScene("Game_Over");
                 break;
             }
 
