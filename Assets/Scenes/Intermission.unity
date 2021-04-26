@@ -295,7 +295,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: IR PARA O MENU INICIAL
+  m_Text: "PR\xD3XIMA FASE"
 --- !u!222 &1358822487
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -621,7 +621,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Parabens! \nVoce venceu!\n"
+  m_Text: "Parabens! \nVoc\xEA venceu a Fase 1!\n"
 --- !u!222 &1675337455
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -850,7 +850,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1990061127}
         m_TargetAssemblyTypeName: ManageBotoes, Assembly-CSharp
-        m_MethodName: MenuInicial
+        m_MethodName: LoadFase2
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

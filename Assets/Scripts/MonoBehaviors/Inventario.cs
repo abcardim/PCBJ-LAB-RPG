@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class Inventario : MonoBehaviour
 {
@@ -8,6 +9,7 @@ public class Inventario : MonoBehaviour
     Image[] itemImagens = new Image[numSlots]; // array de imagens
     Item[] items = new Item[numSlots]; // array de itens
     GameObject[] slots = new GameObject[numSlots]; // array de slots
+    bool venceu = false; // testa a condicao de vitoria
 
     // Start is called before the first frame update
     void Start()
@@ -17,10 +19,17 @@ public class Inventario : MonoBehaviour
 
     private void Update()
     {
-        int i = 0;
-        if (items[i].tipoItem == Item.TipoItem.CHAVE)
+        for (int i=0; i<items.Length; i++)
         {
-            Debug.Log("achou uma chave!");
+            if (items[i].tipoItem == Item.TipoItem.MOEDA && items[i].quantidade == 3)
+            {
+                venceu = true;
+            }
+        }
+        if(items.Length == 5 && venceu == true)
+        {
+            if(SceneManager.GetActiveScene().name == "Lab5_RPGSetup") SceneManager.LoadScene("Intermission");
+            if(SceneManager.GetActiveScene().name == "Lab5_RPGSetup2") SceneManager.LoadScene("Win_Game");
         }
     }
 

@@ -20,4 +20,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Game_Over.unity
     guid: cce84deca59eaa441a8c102bf0ba7228
+  - enabled: 1
+    path: Assets/Scenes/Lab5_RPGSetup2.unity
+    guid: 09a0969015e824d41bf26b73677072bd
+  - enabled: 1
+    path: Assets/Scenes/Intermission.unity
+    guid: ab63ede092d9b60419c3c14c1dd67a35
   m_configObjects: {}
