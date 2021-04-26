@@ -398,9 +398,9 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: f90aeb29398d1f5408e0c12aff23ed39, type: 3}
+  m_audioClip: {fileID: 8300000, guid: ff8bfb51d68d0c04284f255926474a4b, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.542
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -621,7 +621,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Parabens! \nVoce venceu!\n"
+  m_Text: "Parab\xE9ns! \nVoc\xEA venceu o jogo!\n"
 --- !u!222 &1675337455
 CanvasRenderer:
   m_ObjectHideFlags: 0

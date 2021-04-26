@@ -9,7 +9,7 @@ public class Inventario : MonoBehaviour
     Image[] itemImagens = new Image[numSlots]; // array de imagens
     Item[] items = new Item[numSlots]; // array de itens
     GameObject[] slots = new GameObject[numSlots]; // array de slots
-    bool venceu = false; // testa a condicao de vitoria
+    bool coletouMoedas = false; // testa a coleta de moedas
 
     // Start is called before the first frame update
     void Start()
@@ -21,12 +21,9 @@ public class Inventario : MonoBehaviour
     {
         for (int i=0; i<items.Length; i++)
         {
-            if (items[i].tipoItem == Item.TipoItem.MOEDA && items[i].quantidade == 3)
-            {
-                venceu = true;
-            }
+            if (items[i].tipoItem == Item.TipoItem.MOEDA && items[i].quantidade == 3) coletouMoedas = true;
         }
-        if(items.Length == 5 && venceu == true)
+        if(items.Length == 5 && coletouMoedas == true)
         {
             if(SceneManager.GetActiveScene().name == "Lab5_RPGSetup") SceneManager.LoadScene("Intermission");
             if(SceneManager.GetActiveScene().name == "Lab5_RPGSetup2") SceneManager.LoadScene("Win_Game");

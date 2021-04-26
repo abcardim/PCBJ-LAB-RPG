@@ -2864,7 +2864,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 0b90404a88b724f49a7dd1b167e577ba, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 4035554cc794f5c46b40f93582afa59d, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 0.505
   m_Pitch: 1
@@ -3113,12 +3113,12 @@ PrefabInstance:
     - target: {fileID: 2219727095190826097, guid: 6b16406eb9f018e4b81ced919e8e5a42,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -5
+      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 2219727095190826097, guid: 6b16406eb9f018e4b81ced919e8e5a42,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 2219727095190826097, guid: 6b16406eb9f018e4b81ced919e8e5a42,
         type: 3}
@@ -3181,6 +3181,92 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: InimigoPontoSpawn
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6b16406eb9f018e4b81ced919e8e5a42, type: 3}
+--- !u!1001 &1192768501
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2219727095190826097, guid: 6b16406eb9f018e4b81ced919e8e5a42,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 2219727095190826097, guid: 6b16406eb9f018e4b81ced919e8e5a42,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2219727095190826097, guid: 6b16406eb9f018e4b81ced919e8e5a42,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2219727095190826097, guid: 6b16406eb9f018e4b81ced919e8e5a42,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2219727095190826097, guid: 6b16406eb9f018e4b81ced919e8e5a42,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2219727095190826097, guid: 6b16406eb9f018e4b81ced919e8e5a42,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2219727095190826097, guid: 6b16406eb9f018e4b81ced919e8e5a42,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2219727095190826097, guid: 6b16406eb9f018e4b81ced919e8e5a42,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2219727095190826097, guid: 6b16406eb9f018e4b81ced919e8e5a42,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2219727095190826097, guid: 6b16406eb9f018e4b81ced919e8e5a42,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2219727095190826097, guid: 6b16406eb9f018e4b81ced919e8e5a42,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2219727095190826098, guid: 6b16406eb9f018e4b81ced919e8e5a42,
+        type: 3}
+      propertyPath: prefabParaSpawn
+      value: 
+      objectReference: {fileID: 7559111293922386076, guid: 4530355abdefad04f996124f547c1e53,
+        type: 3}
+    - target: {fileID: 2219727095190826098, guid: 6b16406eb9f018e4b81ced919e8e5a42,
+        type: 3}
+      propertyPath: intervaloRepeticao
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2219727095190826099, guid: 6b16406eb9f018e4b81ced919e8e5a42,
+        type: 3}
+      propertyPath: m_Icon
+      value: 
+      objectReference: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000,
+        type: 0}
+    - target: {fileID: 2219727095190826099, guid: 6b16406eb9f018e4b81ced919e8e5a42,
+        type: 3}
+      propertyPath: m_Name
+      value: InimigoPontoSpawn (1)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6b16406eb9f018e4b81ced919e8e5a42, type: 3}
